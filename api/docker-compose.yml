@@ -1,0 +1,18 @@
+version: "19.04"
+
+services:
+  database:
+    image: mysql
+    container_name: cad-tarefas
+    restart: always
+    ports: -5432:5432
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=admin
+      - MYSQL_DB=Tarefas
+    volumes:
+      - pgdata/data/mysql
+
+volumes:
+  pgdata:
+    driver: local

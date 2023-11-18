@@ -1,0 +1,13 @@
+.val {
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    background: #BFE4FD;
+    color: #a6e2bd;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 15px;
+    text-align: center;
+    visibility: visible;
+    font-size: 2cap;
+}
